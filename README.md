@@ -1,17 +1,18 @@
 En un supermercado se pide que hagamos una pequeña aplicación que almacene los productos pasados por captura de escáner en caja.
 
-FUNCIONALIDAD
+ ## FUNCIONALIDAD
 
 La aplicación debe almacenar Productos (clase), cada producto al crearse contiene un código, nombre, cantidad, precio, total.
 Debe generar una factura que calcule el precio total de una lista de entre 10 productos: total, productos vendidos, precio final, total, IVA al precio correspondiente del 19%, como se indica en el siguiente formato:
 
-Código*********Cantidad*********Precio*********Total
-Producto1        5                3500        17500
-Producto2        7                10200       71400
-Producto3        12               20000       240000
-Producto....n
-Precio final
-
+---
+`Código********* Cantidad********* Precio********* Total`  
+`Producto1        5                3500        17500`  
+`Producto2        7                10200       71400`  
+`Producto3        12               20000       240000`  
+`Producto....n`  
+`Precio final`
+---
 
  - Implemente uso de clases, métodos y atributos según su análisis y diseño lógico
  - Implemente estructura de datos listas enlazadas y arreglos según su criterio.
